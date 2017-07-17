@@ -1,0 +1,1 @@
+tar -cvf ../bin-16sep09.tar observe s.py t.py T a.py e.py radioastronomy.py S r.py R A cleanup angles.py pltraw.py tsys.py m33 m31 LST

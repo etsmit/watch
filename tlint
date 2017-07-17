@@ -1,0 +1,425 @@
+************* Module tcalibrate
+C: 24, 0: Line too long (186/100) (line-too-long)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                 ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                     ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                               ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                    ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                         ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                              ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                   ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                        ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                            ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                          ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                               ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                    ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                         ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                              ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                   ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                       ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                           ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                     ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                          ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                               ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                    ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                         ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                              ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                                  ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                                      ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                                                ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                                                     ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                                                          ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                                                               ^ (bad-whitespace)
+C: 24, 0: Exactly one space required after comma
+linestyles = ['-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--','-','-','-', '-.','-.','-.','--','--','--']
+                                                                                                                                                                                    ^ (bad-whitespace)
+C: 25, 0: Line too long (192/100) (line-too-long)
+C: 25, 0: Exactly one space required after assignment
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+       ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+               ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                    ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                               ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                    ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                         ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                              ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                   ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                        ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                             ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                  ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                       ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                            ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                 ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                      ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                           ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                     ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                          ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                               ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                    ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                         ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                              ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                   ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                        ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                             ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                                  ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                                       ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                                            ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                                                 ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                                                      ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                                                           ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                                                                ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                                                                     ^ (bad-whitespace)
+C: 25, 0: Exactly one space required after comma
+colors =  ['-b','-r','-g', '-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g','-b','-r','-g']
+                                                                                                                                                                                          ^ (bad-whitespace)
+C: 38, 0: Trailing whitespace (trailing-whitespace)
+C: 72, 0: Trailing whitespace (trailing-whitespace)
+W: 74, 0: Bad indentation. Found 7 spaces, expected 8 (bad-indentation)
+W: 78, 0: Bad indentation. Found 7 spaces, expected 8 (bad-indentation)
+C:100, 0: Exactly one space required after comma
+for iii in range(1,(nData-1)):
+                  ^ (bad-whitespace)
+C:118, 0: No space allowed before bracket
+for jjj in range (0, nData):
+                 ^ (bad-whitespace)
+C:126, 0: Exactly one space required after comma
+plt.plot(vel, hv, colors[0], linestyle=linestyles[3],label="hot")
+                                                    ^ (bad-whitespace)
+C:130, 0: Trailing whitespace (trailing-whitespace)
+C:135, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:137, 0: Trailing whitespace (trailing-whitespace)
+C:157, 0: Trailing whitespace (trailing-whitespace)
+C:160, 0: No space allowed after bracket
+            cold = copy.deepcopy( tcal.cold)
+                                ^ (bad-whitespace)
+C:165, 0: Trailing whitespace (trailing-whitespace)
+C:171, 0: Line too long (130/100) (line-too-long)
+C:204, 0: Trailing whitespace (trailing-whitespace)
+C:221, 0: Exactly one space required before assignment
+                tsky  = np.zeros(nData)    # initialize arrays
+                      ^ (bad-whitespace)
+C:222, 0: Exactly one space required before assignment
+                S     = np.zeros(nData)    # initialize arrays
+                      ^ (bad-whitespace)
+C:224, 0: No space allowed before bracket
+                for jjj in range (0, nData):
+                                 ^ (bad-whitespace)
+C:239, 0: Exactly one space required after comma
+                yallmin = min(ymin,yallmin)
+                                  ^ (bad-whitespace)
+C:240, 0: Exactly one space required after comma
+                yallmax = max(ymax,yallmax)
+                                  ^ (bad-whitespace)
+C:242, 0: Line too long (119/100) (line-too-long)
+C:243, 0: Exactly one space required after comma
+                label = '%s Lon,Lat=%5.1f,%5.1f' % (time,tcal.cold.gallon,tcal.cold.gallat)
+                                                        ^ (bad-whitespace)
+C:243, 0: Exactly one space required after comma
+                label = '%s Lon,Lat=%5.1f,%5.1f' % (time,tcal.cold.gallon,tcal.cold.gallat)
+                                                                         ^ (bad-whitespace)
+C:244, 0: Line too long (109/100) (line-too-long)
+C:247, 0: Exactly one space required after comma
+                plt.plot(vel, yv, colors[ncolor], linestyle=linestyles[ncolor],label=label)
+                                                                              ^ (bad-whitespace)
+C:256, 0: Exactly one space required after comma
+            print 'Xmin: ', min(cold.xdata)/1e6, 'Xmax: ', max(cold.xdata),' MHz'
+                                                                          ^ (bad-whitespace)
+C:257, 0: Exactly one space required after comma
+            print 'Xmin: ', min(tcal.cold.xdata)/1e6, 'Xmax: ', max(tcal.cold.xdata),' MHz'
+                                                                                    ^ (bad-whitespace)
+C:281, 0: Trailing whitespace (trailing-whitespace)
+C:283, 0: Trailing whitespace (trailing-whitespace)
+C:286, 0: Trailing whitespace (trailing-whitespace)
+C:288, 0: Trailing whitespace (trailing-whitespace)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 20, 0: Invalid constant name "avetimesec" (invalid-name)
+C: 22, 0: Invalid constant name "nargs" (invalid-name)
+C: 24, 0: Invalid constant name "linestyles" (invalid-name)
+C: 25, 0: Invalid constant name "colors" (invalid-name)
+C: 26, 0: Invalid constant name "nmax" (invalid-name)
+C: 27, 0: Invalid constant name "scalefactor" (invalid-name)
+C: 28, 0: Invalid constant name "xallmax" (invalid-name)
+C: 29, 0: Invalid constant name "xallmin" (invalid-name)
+C: 30, 0: Invalid constant name "yallmax" (invalid-name)
+C: 31, 0: Invalid constant name "yallmin" (invalid-name)
+C: 33, 0: Invalid constant name "c" (invalid-name)
+C: 34, 0: Invalid constant name "nuh1" (invalid-name)
+C: 35, 0: Invalid constant name "thot" (invalid-name)
+C: 37, 0: Invalid constant name "tcold" (invalid-name)
+C: 38, 0: Invalid constant name "tmin" (invalid-name)
+C: 39, 0: Invalid constant name "tmax" (invalid-name)
+C: 44, 0: Invalid constant name "nplot" (invalid-name)
+C: 45, 0: Invalid constant name "nhot" (invalid-name)
+C: 46, 0: Invalid constant name "ncold" (invalid-name)
+C: 47, 0: Invalid constant name "lastfreq" (invalid-name)
+C: 48, 0: Invalid constant name "lastbw" (invalid-name)
+C: 49, 0: Invalid constant name "lastgain" (invalid-name)
+C: 53, 0: Invalid constant name "avetimesec" (invalid-name)
+C: 56, 0: Invalid constant name "tcal" (invalid-name)
+C: 91, 0: Invalid constant name "xv" (invalid-name)
+C: 92, 0: Invalid constant name "yv" (invalid-name)
+C: 93, 0: Invalid constant name "nData" (invalid-name)
+C: 94, 0: Invalid constant name "hv" (invalid-name)
+C:103, 0: Invalid constant name "fig" (invalid-name)
+C:103, 5: Invalid constant name "ax1" (invalid-name)
+C:105, 0: Invalid constant name "az" (invalid-name)
+C:106, 0: Invalid constant name "el" (invalid-name)
+C:107, 0: Invalid constant name "ymin" (invalid-name)
+C:108, 0: Invalid constant name "ymax" (invalid-name)
+C:109, 0: Invalid constant name "yallmin" (invalid-name)
+C:110, 0: Invalid constant name "yallmax" (invalid-name)
+C:111, 0: Invalid constant name "ymed" (invalid-name)
+C:112, 0: Invalid constant name "count" (invalid-name)
+C:113, 0: Invalid constant name "ncold" (invalid-name)
+C:117, 0: Invalid constant name "vel" (invalid-name)
+C:128, 0: Invalid constant name "avetime" (invalid-name)
+C:130, 0: Invalid constant name "nread" (invalid-name)
+E:185,48: Using variable 'timesum' before assignment (used-before-assignment)
+W: 16, 0: Unused import radioastronomy (unused-import)
+C: 13, 0: standard import "import sys" comes before "import matplotlib.pyplot as plt" (wrong-import-order)
+C: 14, 0: standard import "import datetime" comes before "import matplotlib.pyplot as plt" (wrong-import-order)
+C: 15, 0: standard import "import statistics" comes before "import matplotlib.pyplot as plt" (wrong-import-order)
+C: 18, 0: standard import "import copy" comes before "import matplotlib.pyplot as plt" (wrong-import-order)
+
+
+Report
+======
+196 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-pyplot (tcalibrate)
+    numpy (tcalibrate)
+    radioastronomy (tcalibrate)
+    statistics (tcalibrate)
+    tsys (tcalibrate)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |200    |66.89 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |55     |18.39 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |44     |14.72 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |144    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|bad-whitespace         |80          |
++-----------------------+------------+
+|invalid-name           |42          |
++-----------------------+------------+
+|trailing-whitespace    |11          |
++-----------------------+------------+
+|line-too-long          |5           |
++-----------------------+------------+
+|wrong-import-order     |4           |
++-----------------------+------------+
+|bad-indentation        |2           |
++-----------------------+------------+
+|used-before-assignment |1           |
++-----------------------+------------+
+|unused-import          |1           |
++-----------------------+------------+
+|superfluous-parens     |1           |
++-----------------------+------------+
+|missing-docstring      |1           |
++-----------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 2.24/10
+

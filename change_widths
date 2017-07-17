@@ -1,0 +1,6 @@
+#!/bin/csh
+# Change widths of bw lines 7 & 13 in a metafile
+# Input argument is file name, will have "thick" added to resulting file name.
+# J Davison 9.29.98
+
+sed 's/ 51    29     7     1    2.00000     1/ 51    29     7     1    4.00000     1/' $1 | sed 's/ 51    29    13     1    3.00000     1/ 51    29    13     1    6.00000     1/' > $1:r_thick.plt

@@ -1,0 +1,535 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en">
+
+  
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    <title>
+
+        
+            change_widths
+            &mdash;
+        
+        Ferret
+    </title>
+
+    
+      
+        <base href="http://ferret.pmel.noaa.gov/Ferret/faq/change_widths" />
+      
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <meta content="A unix script to change the widths of lines in metafiles."
+          name="description" />
+
+    <!-- Plone ECMAScripts -->
+    
+      
+        
+            
+                <script type="text/javascript"
+                        src="http://ferret.pmel.noaa.gov/Ferret/portal_javascripts/Plone%20Default/ploneScripts5555.js">
+                </script>
+                
+            
+        
+    
+    
+
+    
+	
+          
+        
+            
+                
+                    
+                    
+                        <style type="text/css"><!-- @import url(http://ferret.pmel.noaa.gov/Ferret/portal_css/Plone%20Default/ploneStyles1864.css); --></style>
+                    
+                    
+                
+            
+            
+                
+                    <link rel="alternate stylesheet"
+                          type="text/css" media="screen"
+                          href="http://ferret.pmel.noaa.gov/Ferret/portal_css/Plone%20Default/ploneStyles3441.css"
+                          title="Small Text" />
+                    
+                    
+                
+            
+            
+                
+                    <link rel="alternate stylesheet"
+                          type="text/css" media="screen"
+                          href="http://ferret.pmel.noaa.gov/Ferret/portal_css/Plone%20Default/ploneStyles5655.css"
+                          title="Large Text" />
+                    
+                    
+                
+            
+            
+                
+                    
+                    
+                        <style type="text/css" media="all"><!-- @import url(http://ferret.pmel.noaa.gov/Ferret/portal_css/Plone%20Default/ploneStyles6175.css); --></style>
+                    
+                    
+                
+            
+        
+    
+        
+        
+    
+
+    <!-- Internet Explorer CSS Fixes -->
+    <!--[if IE]>
+        <style type="text/css" media="all">@import url(http://ferret.pmel.noaa.gov/Ferret/IEFixes.css);</style>
+    <![endif]-->
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://ferret.pmel.noaa.gov/Ferret/favicon.ico" />
+
+    <link rel="home"
+          href="http://ferret.pmel.noaa.gov/Ferret"
+          title="Front page" />
+    <link rel="search"
+          href="http://ferret.pmel.noaa.gov/Ferret/search_form"
+          title="Search this site" />
+    <link rel="author"
+          href="http://ferret.pmel.noaa.gov/Ferret/author/ansley"
+          title="Author information" />
+    <link rel="contents"
+          href="http://ferret.pmel.noaa.gov/Ferret/sitemap"
+          title="Site Map" />
+
+    
+
+    
+
+    <link rel="up"
+          href="http://ferret.pmel.noaa.gov/Ferret/faq"
+          title="Up one level" />
+
+    
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+      
+      
+    
+
+    
+      
+      
+    
+
+    
+      
+      
+    
+
+    
+      
+      
+    
+
+  </head>
+
+  <body class="section-home" dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+
+        <div id="portal-header">
+          <p class="hiddenStructure">
+            <a accesskey="2"
+               href="http://ferret.pmel.noaa.gov/Ferret/faq/change_widths#documentContent">Skip to content.</a> |
+
+            <a accesskey="6"
+               href="http://ferret.pmel.noaa.gov/Ferret/faq/change_widths#portlet-navigation-tree">Skip to navigation</a>
+          </p>
+
+             <ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a
+    href="http://ferret.pmel.noaa.gov/Ferret/sitemap"
+    accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a
+    href="http://ferret.pmel.noaa.gov/Ferret/accessibility-info"
+    accesskey="0" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a
+    href="http://ferret.pmel.noaa.gov/Ferret/contact-info"
+    accesskey="9" title="Contact">Contact</a></li>
+
+</ul>
+
+             <div id="portal-searchbox">
+    <form name="searchform"
+          action="http://ferret.pmel.noaa.gov/Ferret/search"
+          style="white-space:nowrap"
+          onsubmit="return liveSearchSubmit()">
+
+        <label for="searchGadget" class="hiddenStructure">Search Site</label>
+
+        <div class="LSBox">
+        <input id="searchGadget" name="SearchableText"
+               type="text" size="15" title="Search Site"
+               accesskey="4" class="visibility:visible" />
+
+        <input class="searchButton" type="submit"
+               value="Search" />
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://ferret.pmel.noaa.gov/Ferret/search_form"
+           accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+             <h1 id="portal-logo">
+    <a href="http://ferret.pmel.noaa.gov/Ferret/home"
+       accesskey="1">Ferret</a>
+</h1>
+
+             <div id="portal-skinswitcher">
+  
+</div>
+
+             
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav">
+        <li id="portaltab-index_html" class="plain">
+            <a href="http://ferret.pmel.noaa.gov/Ferret/home">Home</a></li>
+        <li id="portaltab-contact-us" class="plain">
+            <a href="http://ferret.pmel.noaa.gov/Ferret/contact-us"
+               title="">Contact Us</a></li>
+        <li id="portaltab-documentation" class="plain">
+            <a href="http://ferret.pmel.noaa.gov/Ferret/documentation"
+               title="">Documentation</a></li>
+        <li id="portaltab-downloads" class="plain">
+            <a href="http://ferret.pmel.noaa.gov/Ferret/downloads"
+               title="">Downloads</a></li>
+        <li id="portaltab-email-users-group" class="plain">
+            <a href="http://ferret.pmel.noaa.gov/Ferret/email-users-group"
+               title="">eMail Users Group</a></li>
+        <li id="portaltab-faq" class="selected">
+            <a href="http://ferret.pmel.noaa.gov/Ferret/faq"
+               title="">FAQ</a></li>
+        <li id="portaltab-las" class="plain">
+            <a href="http://ferret.pmel.noaa.gov/Ferret/las"
+               title="Live Access Server pages">LAS </a></li>
+        <li id="portaltab-opendap" class="plain">
+            <a href="http://ferret.pmel.noaa.gov/Ferret/opendap"
+               title="">OPeNDAP</a></li>
+        <li id="portaltab-support" class="plain">
+            <a href="http://ferret.pmel.noaa.gov/Ferret/support"
+               title="">Support</a></li>
+    </ul>
+
+          </div>
+
+          <div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools">
+   
+
+
+</ul>
+</div>
+
+           <div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <a href="http://ferret.pmel.noaa.gov/Ferret/home">Home</a>
+    <span class="breadcrumbSeparator">
+        &rarr;
+        
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://ferret.pmel.noaa.gov/Ferret/faq">FAQ</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            
+            
+            <span>change_widths</span>
+         
+    </span>
+
+</div>
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div id="content" class="">
+
+                  
+
+                  <div class="documentContent" id="region-content">
+
+                    <a name="documentContent"></a>
+
+                    
+
+    
+
+
+
+                    
+
+                    
+    
+
+        <div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Document Actions</h5>
+
+    <ul>
+    
+        <li>
+            <a href="http://ferret.pmel.noaa.gov/Ferret/faq/change_widths/sendto_form">
+
+                <img src="http://ferret.pmel.noaa.gov/Ferret/mail_icon.gif"
+                     alt="Send this page to somebody"
+                     title="Send this page to somebody"
+                     id="icon-sendto" />
+            </a>
+        </li>
+    
+    
+        <li>
+            <a href="javascript:this.print();">
+
+                <img src="http://ferret.pmel.noaa.gov/Ferret/print_icon.gif"
+                     alt="Print this page"
+                     title="Print this page" id="icon-print" />
+            </a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+        <h1 class="documentFirstHeading">change_widths</h1>
+    
+        <div>
+
+    <div class="documentByLine">
+        
+
+        
+          <span class="documentAuthor">
+            by
+          ansley
+
+          &mdash;
+          
+          </span>
+        
+
+        <span class="documentModified">
+            <span>
+            last modified
+            </span>
+            2008-02-08 15:43
+        </span>
+
+        
+
+        
+
+        
+
+        
+
+        <div class="reviewHistory">
+    
+</div>
+
+    </div>
+
+</div>
+
+        <p class="documentDescription">A unix script to change the widths of lines in metafiles.</p>
+        
+    
+        <div class="plain">
+            
+<p>#!/bin/csh<br /># Change widths of bw lines 7 &amp; 13 in a metafile<br /># Input argument is file name, will have "thick" added to resulting file name.<br /># J Davison 9.29.98<br /><br />sed 's/ 51    29     7     1    2.00000     1/ 51    29     7     1    4.00000     1/' $1 | sed 's/ 51    29    13     1    3.00000     1/ 51    29    13     1    6.00000     1/' &gt; $1:r_thick.plt<br /><br /></p>
+
+        </div>
+
+        <div id="relatedItems">
+    
+        
+            
+        
+    
+</div>
+    
+    
+
+
+                    
+                      
+                 
+    
+        
+    
+
+                    
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+
+
+      <hr class="netscape4" />
+
+      
+
+        <div id="portal-footer">
+<p align="left"><strong>NOAA/OAR/PMEL<br>
+  Pacific Marine Environmental Laboratory<br>
+  7600 Sand Point Way NE, Seattle, WA 98115<br>
+  Phone: (206) 526-6239 ~ Fax: (206) 526-6815 
+  Email: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#111;&#97;&#114;&#46;&#112;&#109;&#101;&#108;&#46;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#95;&#102;&#101;&#114;&#114;&#101;&#116;&#64;&#110;&#111;&#97;&#97;&#46;&#103;&#111;&#118;">
+        &#111;&#97;&#114;&#46;&#112;&#109;&#101;&#108;&#46;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#95;&#102;&#101;&#114;&#114;&#101;&#116;&#64;&#110;&#111;&#97;&#97;&#46;&#103;&#111;&#118; </a>
+</strong></p>
+
+</div>
+
+        <div id="portal-colophon">
+      
+
+      <a href="http://plone.org"
+         class="colophonIcon colophonIconPlone"
+         title="This Plone site was built using Plone CMS, the Open Source Content Management System. Click for more information.">
+        Powered by Plone CMS, the Open Source Content Management System
+      </a>
+
+      
+
+      <p class="discreet">
+        This site conforms to the following standards:
+      </p>
+
+      <div class="colophonWrapper">
+      <ul>
+    <li>
+      <a href="http://www.section508.gov"
+         class="colophonIcon colophonIcon508"
+         title="This Plone site conforms to the US Government Section 508 Accessibility Guidelines.">
+        Section 508
+      </a>
+    </li>
+    <li>
+      <a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
+         class="colophonIcon colophonIconWAI"
+         title="This Plone site conforms to the W3C-WAI Web Content Accessibility Guidelines.">
+        WCAG
+      </a>
+    </li>
+    <li>
+      <a href="http://validator.w3.org/check/referer"
+         class="colophonIcon colophonIconXHTML"
+         title="This Plone site is valid XHTML.">
+        Valid XHTML
+      </a>
+    </li>
+    <li>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3&amp;usermedium=all"
+         class="colophonIcon colophonIconCSS"
+         title="This Plone site was built with valid CSS.">
+        Valid CSS
+      </a>
+    </li>
+    <li>
+      <a href="http://plone.org/browsersupport"
+         class="colophonIcon colophonIconAnyBrowser"
+         title="This Plone site is usable in any web browser.">
+        Usable in any browser
+      </a>
+    </li>
+      </ul>
+      </div>
+
+    </div>
+      
+
+    </div>
+
+</body>
+</html>
+
+

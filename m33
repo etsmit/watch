@@ -1,0 +1,2 @@
+cd ~/Desktop/Research/SDR/wxgui
+python radec2azel.py 01:33:50.02 30:39:36.7

@@ -1,0 +1,141 @@
+16a17
+> import tsys
+58a60,61
+> tcal = tsys.Tsys()
+> 
+67,73c70,82
+<     rs = radioastronomy.Spectrum()
+<     rs.read_spec_ast(filename)
+<     rs.azel2radec()    # compute ra,dec from az,el
+< 
+<     if rs.telel < 0:
+<         if nhot == 0:
+<             hot = rs
+---
+>     if filename == "Off.ast":
+>         tcal.off.read_spec_ast(filename)
+>         tcal.off.azel2radec()    # compute ra,dec from az,el
+>         print 'Read an Off file'
+>         continue
+>     else:
+>         tcal.hot.read_spec_ast(filename)
+>         tcal.hot.azel2radec()    # compute ra,dec from az,el
+> 
+>     
+>     if tcal.hot.telel < 0:
+>        if nhot == 0:
+>             hot = tcal.hot
+75,77c84,86
+<         else:
+<             hot.ydataA = hot.ydataA + rs.ydataA
+<             hot.count = hot.count + rs.count
+---
+>        else:
+>             hot.ydataA = hot.ydataA + tcal.hot.ydataA
+>             hot.count = hot.count + tcal.hot.count
+81a91
+>     tcal.hot = hot
+87,88c97,99
+< xv = hot.xdata * 1.E-6
+< yv = hot.ydataA
+---
+> # convert to MHz
+> xv = tcal.hot.xdata * 1.E-6
+> yv = tcal.hot.ydataA
+91,93c102,108
+< # will need smoothed hot load values in remaining calc
+< for iii in range(2,(nData-2)):
+<     hv[iii] = (yv[iii-2]+yv[iii-1]+yv[iii]+yv[iii+1]+yv[iii+2])/5.
+---
+> 
+> #for iii in range(2,(nData-2)):
+> #    hv[iii] = (yv[iii-2]+yv[iii-1]+yv[iii]+yv[iii+1]+yv[iii+2])/5.
+> 
+> #smooth hot slightly
+> for iii in range(1,(nData-1)):
+>     hv[iii] = (yv[iii-1]+yv[iii]+yv[iii+1])/3.
+97,98c112,113
+< az = hot.telaz
+< el = hot.telel
+---
+> az = tcal.hot.telaz
+> el = tcal.hot.telel
+121,122c136,138
+< 
+<     rs = radioastronomy.Spectrum()
+---
+>     if (filename == "Off.ast"):
+>         continue
+>     
+124,125c140,141
+<     rs.read_spec_ast(filename)
+<     rs.azel2radec()    # compute ra,dec from az,el
+---
+>     tcal.cold.read_spec_ast(filename)
+>     tcal.cold.azel2radec()    # compute ra,dec from az,el
+138c154
+<     if rs.telel > 0.:
+---
+>     if tcal.cold.telel > 0.:
+142,145c158,161
+<             lastfreq = rs.centerFreqHz 
+<             lastbw = rs.bandwidthHz
+<             lastgain = rs.gains[0]
+<             cold = rs
+---
+>             lastfreq = tcal.cold.centerFreqHz 
+>             lastbw = tcal.cold.bandwidthHz
+>             lastgain = tcal.cold.gains[0]
+>             cold = tcal.cold
+150c166
+<             dt = rs.utc - cold.utc 
+---
+>             dt = tcal.cold.utc - cold.utc 
+152c168
+<             dt = dt + datetime.timedelta(seconds=rs.durationSec/2.)
+---
+>             dt = dt + datetime.timedelta(seconds=tcal.cold.durationSec/2.)
+156c172
+<             newObs = (lastfreq != rs.centerFreqHz) or (lastbw != rs.bandwidthHz) or (lastgain != rs.gains[0])
+---
+>             newObs = (lastfreq != tcal.cold.centerFreqHz) or (lastbw != tcal.cold.bandwidthHz) or (lastgain != tcal.cold.gains[0])
+159,167c175,183
+<                 if lastfreq != rs.centerFreqHz:
+<                     print "LastFreq: ", lastfreq/1e6, "New: ", rs.centerFreqHz/1e6, " MHz"
+<                     lastfreq = rs.centerFreqHz
+<                 if lastbw != rs.bandwidthHz:
+<                     print "LastBandwidth: ", lastbw/1e6, "New: ", rs.bandwidthHz/1e6, " MHz"
+<                     lastbw = rs.bandwidthHz
+<                 if lastgain != rs.gains[0]:
+<                     print "LastGain: ", lastgain, "New: ", rs.gains[0], " dB"
+<                     lastgain = rs.gains[0]
+---
+>                 if lastfreq != tcal.cold.centerFreqHz:
+>                     print "LastFreq: ", lastfreq/1e6, "New: ", tcal.cold.centerFreqHz/1e6, " MHz"
+>                     lastfreq = tcal.cold.centerFreqHz
+>                 if lastbw != tcal.cold.bandwidthHz:
+>                     print "LastBandwidth: ", lastbw/1e6, "New: ", tcal.cold.bandwidthHz/1e6, " MHz"
+>                     lastbw = tcal.cold.bandwidthHz
+>                 if lastgain != tcal.cold.gains[0]:
+>                     print "LastGain: ", lastgain, "New: ", tcal.cold.gains[0], " dB"
+>                     lastgain = tcal.cold.gains[0]
+176a193,195
+>                 tcal.cold = cold
+> 
+>                 # convert to MHz
+239c258
+<             cold = rs  # initial spectrum is one just read
+---
+>             cold = tcal.cold  # initial spectrum is one just read
+248c267
+<             cold.count = cold.count + rs.count
+---
+>             cold.count = cold.count + tcal.cold.count
+250,252c269,271
+<             cold.ydataA = cold.ydataA + (rs.ydataA * cold.durationSec)
+<             cold.gallon = cold.gallon + (rs.gallon * cold.durationSec)
+<             cold.gallat = cold.gallat + (rs.gallat * cold.durationSec)
+---
+>             cold.ydataA = cold.ydataA + (tcal.cold.ydataA * cold.durationSec)
+>             cold.gallon = cold.gallon + (tcal.cold.gallon * cold.durationSec)
+>             cold.gallat = cold.gallat + (tcal.cold.gallat * cold.durationSec)
