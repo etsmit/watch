@@ -1,0 +1,30 @@
+File: Watch-new.not
+Date: 2016-12-23 14:07:24.938435
+NoteA: Configuration for Observations
+NoteB: Gain setting summary
+Observer: Glen Langston
+Site: Moumau House
+City: Marlinton
+Region: West Virginia
+Country: US
+Gain1: 1.0
+Gain2: 1.0
+Gain3: 1.0
+Freq: 1420405000.0
+Rate: 10000000.0
+Az:   0.0
+El:   0.0
+Int:  60.0
+TelLon: -80.0146
+TelLat: 38.17
+FFTrate: 2000.0
+TelType: Pyramid Horn
+TelSizeAm: 1.0
+TelSizeBm: 1.0
+Version: 0.0.1
+PolA: X
+PolB: Y
+PolAngle: 0.0
+Frame: TOPO
+EtaA: 0.8
+EtaB: 0.99

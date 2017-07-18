@@ -1,0 +1,9 @@
+Mac OS; Clang version 7.0.2 (clang-700.1.81); Boost_105900; UHD_003.009.002-MacPorts-Release
+
+Check the time before all observations, or coordinates will be off!
+The local time is usually offset from UTC
+Check your Time-zone for your computer
+Local Time:  2016-10-06 11:25:51.683149
+ UTC  Time:  2016-10-06 15:25:51.681546
+
+Enter a character to continue: Notes are logged with observations in files

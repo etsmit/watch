@@ -1,0 +1,250 @@
+************* Module watch
+C: 53, 0: No space allowed after bracket
+        self.gains = [ self.gain1, self.gain2, self.gain3]
+                     ^ (bad-whitespace)
+C: 60, 0: Trailing whitespace (trailing-whitespace)
+E: 21, 0: Unable to import 'gnuradio.eng_option' (import-error)
+E: 23, 0: Unable to import 'gnuradio.wxgui' (import-error)
+E: 24, 0: Unable to import 'grc_gnuradio' (import-error)
+E: 25, 0: Unable to import 'osmosdr' (import-error)
+E: 26, 0: Unable to import 'wx' (import-error)
+C: 29, 0: Invalid class name "watch" (invalid-name)
+C:138, 8: Invalid attribute name "_Observer_text_box" (invalid-name)
+C:121, 8: Invalid attribute name "_Note_01_text_box" (invalid-name)
+C: 56, 8: Invalid attribute name "Integrations" (invalid-name)
+C: 59, 8: Invalid attribute name "FrequencyMHz" (invalid-name)
+C:130, 8: Invalid attribute name "_Note_02_text_box" (invalid-name)
+C: 58, 8: Invalid attribute name "Latitude" (invalid-name)
+C: 43, 8: Invalid attribute name "SampleRate" (invalid-name)
+C: 45, 8: Invalid attribute name "FileCount" (invalid-name)
+C: 55, 8: Invalid attribute name "Elevation" (invalid-name)
+C: 44, 8: Invalid attribute name "AveCount" (invalid-name)
+C:171, 8: Invalid attribute name "_Elevation_01_text_box" (invalid-name)
+C:201, 8: Invalid attribute name "_FileCount_01_text_box" (invalid-name)
+C: 65, 8: Invalid attribute name "FrequencyChooser_0" (invalid-name)
+C:216, 8: Invalid attribute name "_FrequencyMHz_01_text_box" (invalid-name)
+C:157, 8: Invalid attribute name "_Integrations_01_text_box" (invalid-name)
+C:208, 8: Invalid attribute name "_SampleRate_01_text_box" (invalid-name)
+C:194, 8: Invalid attribute name "_AveCount_01_text_box" (invalid-name)
+C: 57, 8: Invalid attribute name "Longitude" (invalid-name)
+C:234, 8: Invalid attribute name "_FrequencyChooser_0_chooser" (invalid-name)
+C: 54, 8: Invalid attribute name "Azimuth" (invalid-name)
+C:164, 8: Invalid attribute name "_Azimuth_01_text_box" (invalid-name)
+C:147, 8: Invalid attribute name "_Site_text_box" (invalid-name)
+C:185, 8: Invalid attribute name "_Latitude_01_text_box" (invalid-name)
+C: 48, 8: Invalid attribute name "Observer" (invalid-name)
+C: 49, 8: Invalid attribute name "Site" (invalid-name)
+C: 47, 8: Invalid attribute name "NoteName" (invalid-name)
+C: 68, 8: Invalid attribute name "Note_01" (invalid-name)
+C: 69, 8: Invalid attribute name "Note_02" (invalid-name)
+R: 29, 0: Too many instance attributes (43/7) (too-many-instance-attributes)
+C: 64, 8: Invalid variable name "FrequencyChooser_0" (invalid-name)
+C:245, 8: Invalid variable name "gainCount" (invalid-name)
+C:246, 8: Invalid variable name "GAINs" (invalid-name)
+C:247, 8: Invalid variable name "nGAINs" (invalid-name)
+C:251,12: Invalid variable name "GAIN" (invalid-name)
+C:252,12: Invalid variable name "R" (invalid-name)
+C:255,12: Invalid variable name "gainCount" (invalid-name)
+W:247, 8: Unused variable 'nGAINs' (unused-variable)
+W:248, 8: Unused variable 'gains' (unused-variable)
+R: 33, 4: Too many statements (114/50) (too-many-statements)
+C:303,12: Invalid variable name "noteFile" (invalid-name)
+C:311,20: Invalid variable name "Note_01" (invalid-name)
+C:337,20: Invalid variable name "FrequencyChooser_0" (invalid-name)
+R:298, 4: Too many branches (16/12) (too-many-branches)
+C:345, 4: Invalid method name "get_RF_Gain" (invalid-name)
+C:351, 4: Invalid method name "save_Notes" (invalid-name)
+C:355, 8: Invalid variable name "outFile" (invalid-name)
+C:374, 4: Invalid method name "set_Note_02" (invalid-name)
+C:378, 8: Invalid variable name "Note_02" (invalid-name)
+C:382,12: Invalid variable name "GAIN" (invalid-name)
+C:383,12: Invalid variable name "R" (invalid-name)
+C:384,12: Invalid variable name "Note_02" (invalid-name)
+C:385, 8: Invalid variable name "GAIN" (invalid-name)
+C:386, 8: Invalid variable name "Note_02" (invalid-name)
+W:374,26: Unused argument 'mystr' (unused-argument)
+C:392, 4: Invalid method name "set_Note_01" (invalid-name)
+C:392, 4: Invalid argument name "Note_01" (invalid-name)
+C:392, 4: Missing method docstring (missing-docstring)
+C:398, 4: Invalid method name "set_Observer" (invalid-name)
+C:398, 4: Invalid argument name "Observer" (invalid-name)
+C:398, 4: Missing method docstring (missing-docstring)
+C:402, 4: Invalid method name "set_Site" (invalid-name)
+C:402, 4: Invalid argument name "Site" (invalid-name)
+C:402, 4: Missing method docstring (missing-docstring)
+C:410, 8: Invalid variable name "GAINs" (invalid-name)
+C:424, 8: Invalid variable name "GAINs" (invalid-name)
+C:425, 8: Invalid variable name "nGAINs" (invalid-name)
+C:440, 8: Invalid variable name "GAINs" (invalid-name)
+C:441, 8: Invalid variable name "nGAINs" (invalid-name)
+C:452, 4: Invalid method name "get_Note_01" (invalid-name)
+C:458, 4: Invalid method name "get_Note_02" (invalid-name)
+C:458, 4: Missing method docstring (missing-docstring)
+C:461, 4: Invalid method name "get_Observer" (invalid-name)
+C:467, 4: Invalid method name "get_Site" (invalid-name)
+C:467, 4: Missing method docstring (missing-docstring)
+C:470, 4: Invalid method name "get_FrequencyChooser_0" (invalid-name)
+C:476, 4: Invalid method name "set_Frequency" (invalid-name)
+C:476, 4: Invalid argument name "FrequencyMHz" (invalid-name)
+C:476, 4: Missing method docstring (missing-docstring)
+C:484, 4: Invalid method name "set_FrequencyChooser_0" (invalid-name)
+C:484, 4: Invalid argument name "FrequencyChooser_0" (invalid-name)
+C:484, 4: Missing method docstring (missing-docstring)
+C:497, 4: Invalid method name "set_Integrations_01" (invalid-name)
+C:497, 4: Invalid argument name "Integrations_01" (invalid-name)
+C:497, 4: Missing method docstring (missing-docstring)
+C:503, 4: Invalid method name "set_Azimuth_01" (invalid-name)
+C:503, 4: Invalid argument name "Azimuth_01" (invalid-name)
+C:513, 4: Invalid method name "set_Elevation_01" (invalid-name)
+C:513, 4: Invalid argument name "Elevation_01" (invalid-name)
+C:523, 4: Invalid method name "set_AveCount_01" (invalid-name)
+C:523, 4: Invalid argument name "AveCount_01" (invalid-name)
+C:523, 4: Missing method docstring (missing-docstring)
+C:527, 4: Invalid method name "set_FileCount_01" (invalid-name)
+C:527, 4: Invalid argument name "FileCount_01" (invalid-name)
+C:527, 4: Missing method docstring (missing-docstring)
+C:531, 4: Invalid method name "set_Longitude_01" (invalid-name)
+C:531, 4: Invalid argument name "Longitude_01" (invalid-name)
+C:531, 4: Missing method docstring (missing-docstring)
+C:536, 4: Missing method docstring (missing-docstring)
+C:540, 4: Invalid method name "set_Latitude_01" (invalid-name)
+C:540, 4: Invalid argument name "Latitude_01" (invalid-name)
+C:540, 4: Missing method docstring (missing-docstring)
+C:545, 4: Invalid method name "set_SampleRate_01" (invalid-name)
+C:545, 4: Invalid argument name "SampleRate_01" (invalid-name)
+C:545, 4: Missing method docstring (missing-docstring)
+C:551, 4: Invalid method name "get_SampleRate" (invalid-name)
+C:557, 4: Invalid method name "get_Latitude" (invalid-name)
+C:563, 4: Invalid method name "get_Longitude" (invalid-name)
+C:563, 4: Missing method docstring (missing-docstring)
+C:566, 4: Invalid method name "get_Azimuth" (invalid-name)
+C:566, 4: Missing method docstring (missing-docstring)
+C:569, 4: Invalid method name "get_Elevation" (invalid-name)
+R: 29, 0: Too many public methods (31/20) (too-many-public-methods)
+C:576, 4: Invalid constant name "parser" (invalid-name)
+C:577, 5: Invalid constant name "options" (invalid-name)
+C:577,14: Invalid constant name "args" (invalid-name)
+C:579, 4: Invalid constant name "nowutc" (invalid-name)
+C:580, 4: Invalid constant name "now" (invalid-name)
+C:587, 4: Invalid constant name "x" (invalid-name)
+C:588, 4: Invalid constant name "topblock" (invalid-name)
+W:602, 8: No exception type(s) specified (bare-except)
+C:600,12: Invalid constant name "x11" (invalid-name)
+C: 23, 0: Imports from package gnuradio are not grouped (ungrouped-imports)
+
+
+Report
+======
+340 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|method   |32     |32         |=          |50.00       |81.25    |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    fftsink2 (watch)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |454    |75.17 |454      |=          |
++----------+-------+------+---------+-----------+
+|docstring |57     |9.44  |42       |+15.00     |
++----------+-------+------+---------+-----------+
+|comment   |46     |7.62  |46       |=          |
++----------+-------+------+---------+-----------+
+|empty     |47     |7.78  |47       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |117    |123      |-6.00      |
++-----------+-------+---------+-----------+
+|refactor   |4      |4        |=          |
++-----------+-------+---------+-----------+
+|warning    |4      |6        |-2.00      |
++-----------+-------+---------+-----------+
+|error      |5      |6        |-1.00      |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|invalid-name                 |98          |
++-----------------------------+------------+
+|missing-docstring            |16          |
++-----------------------------+------------+
+|import-error                 |5           |
++-----------------------------+------------+
+|unused-variable              |2           |
++-----------------------------+------------+
+|unused-argument              |1           |
++-----------------------------+------------+
+|ungrouped-imports            |1           |
++-----------------------------+------------+
+|trailing-whitespace          |1           |
++-----------------------------+------------+
+|too-many-statements          |1           |
++-----------------------------+------------+
+|too-many-public-methods      |1           |
++-----------------------------+------------+
+|too-many-instance-attributes |1           |
++-----------------------------+------------+
+|too-many-branches            |1           |
++-----------------------------+------------+
+|bare-except                  |1           |
++-----------------------------+------------+
+|bad-whitespace               |1           |
++-----------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 5.59/10 (previous run: 5.21/10, +0.38)
+

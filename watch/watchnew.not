@@ -1,0 +1,29 @@
+File: watchnew.not
+Date: 2016-12-22 14:09:01.563949
+Note: one tamp RTL-SDR bias T cylinder horn
+Observer: Glen Langston
+Site: Moumau House
+City: Marlinton
+Region: West Virginia
+Country: US
+Gain1: 44.5
+Gain2: 12.0
+Gain3: 15.0
+Freq: 1420200000.0
+Rate: 2048000.0
+Az:   180.0
+El:   90.0
+Int:  60.0
+TelLon: -80.0146
+TelLat: 38.17
+FFTrate: 3000.0
+TelType: Pyramid Horn
+TelSizeAm: 1.0
+TelSizeBm: 1.0
+Version: 0.0.1
+PolA: X
+PolB: Y
+PolAngle: 0.0
+Frame: TOPO
+EtaA: 1.0
+EtaB: 1.0

@@ -1,0 +1,50 @@
+constants.py:USE_PERSISTENCE_KEY = 'use_persistence'
+fft_16nov05_window.py:                 use_persistence,
+fft_16nov05_window.py:        self[USE_PERSISTENCE_KEY] = use_persistence
+fft_16nov05_window.py:        self.plotter.set_use_persistence(use_persistence)
+fft_16nov05_window.py:        self.subscribe(USE_PERSISTENCE_KEY, self.plotter.set_use_persistence)
+fft_astronomy_window.py:                 use_persistence,
+fft_astronomy_window.py:        self[USE_PERSISTENCE_KEY] = use_persistence
+fft_astronomy_window.py:        self.plotter.set_use_persistence(use_persistence)
+fft_astronomy_window.py:        self.subscribe(USE_PERSISTENCE_KEY, self.plotter.set_use_persistence)
+fft_ok_window.py:                 use_persistence,
+fft_ok_window.py:        self[USE_PERSISTENCE_KEY] = use_persistence
+fft_ok_window.py:        self.plotter.set_use_persistence(use_persistence)
+fft_ok_window.py:        self.subscribe(USE_PERSISTENCE_KEY, self.plotter.set_use_persistence)
+fftsink_gl.py:                use_persistence=False,
+fftsink_gl.py:                        use_persistence=use_persistence,
+fftsink_nongl.py:                 peak_hold=False, use_persistence=False, persist_alpha=0.2):
+fftsink_nongl.py:        self.use_persistence = use_persistence
+fftsink_nongl.py:    def set_use_persistence(self, enable):
+fftsink_nongl.py:        self.use_persistence = enable
+fftsink_nongl.py:        self.win.set_use_persistence(enable)
+fftsink_nongl.py:                 use_persistence=False, persist_alpha=0.2, **kwargs):
+fftsink_nongl.py:                               peak_hold=peak_hold, use_persistence=use_persistence,
+fftsink_nongl.py:        self.set_use_persistence(self.use_persistence)
+fftsink_nongl.py:                 use_persistence=False, persist_alpha=0.2, **kwargs):
+fftsink_nongl.py:                               peak_hold=peak_hold, use_persistence=use_persistence,
+fftsink_nongl.py:        self.set_use_persistence(self.use_persistence)
+fftsink_nongl.py:#        self.use_persistence_check_box = wx.CheckBox(parent=self, style=wx.CHK_2STATE, label="Persistence")
+fftsink_nongl.py:#        self.use_persistence_check_box.Bind(wx.EVT_CHECKBOX, parent.on_use_persistence)
+fftsink_nongl.py:#        control_box.Add(self.use_persistence_check_box, 0, wx.EXPAND)
+fftsink_nongl.py:        self.use_persistence_check_box.SetValue(self.parent.fftsink.use_persistence)
+fftsink_nongl.py:        self.use_persistence=False
+fftsink_nongl.py:    def set_use_persistence(self, enable):
+fftsink_nongl.py:        self.use_persistence = enable
+fftsink_nongl.py:        self.plot.set_use_persistence( enable)
+fftsink_nongl.py:    def on_use_persistence(self, evt):
+fftsink_nongl.py:        self.fftsink.set_use_persistence(evt.IsChecked())
+fftsink_nongl.py:        self.id_use_persistence = wx.NewId()
+fftsink_nongl.py:        self.plot.Bind(wx.EVT_MENU, self.on_use_persistence, id=self.id_use_persistence)
+fftsink_nongl.py:        menu.AppendCheckItem(self.id_use_persistence, "Persistence")
+fftsink_nongl.py:            self.id_use_persistence : lambda : self.fftsink.use_persistence,
+fft_window.py:                use_persistence,
+fft_window.py:		self[USE_PERSISTENCE_KEY] = use_persistence
+fft_window.py:                self.plotter.set_use_persistence(use_persistence)
+fft_window.py:		self.subscribe(USE_PERSISTENCE_KEY, self.plotter.set_use_persistence)
+plot.py:        self.use_persistence=False
+plot.py:    def set_use_persistence(self, enable):
+plot.py:        self.use_persistence = enable
+plot.py:            if self.use_persistence:
+plot.py:        if self.use_persistence:
+plot.py:        if True: #self.use_persistence:

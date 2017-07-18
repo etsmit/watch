@@ -1,0 +1,30 @@
+File: Watch.not
+Date: 2017-07-14 17:02:28.764087
+NoteA: AficionadoHorn
+NoteB: GAIN = 14.0 ; 11.0 ; 11.0 ; 
+Observer: Evan & Sophie
+Site: Moumau House
+City: Green Bank
+Region: West Virginia
+Country: US
+Gain1: 14.0
+Gain2: 11.0
+Gain3: 11.0
+Freq: 1418500000.0
+Rate: 10000000.0
+Az:   180.0
+El:   90.0
+Int:  10.0
+TelLon: 0.0
+TelLat: 0.0
+FFTrate: 20000
+TelType: Pyramid Horn
+TelSizeAm: 1.0
+TelSizeBm: 1.0
+Version: 0.0.1
+PolA: X
+PolB: Y
+PolAngle: 0.0
+Frame: TOPO
+EtaA: 0.8
+EtaB: 0.99

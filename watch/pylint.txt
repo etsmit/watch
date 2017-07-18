@@ -1,0 +1,222 @@
+************* Module fft_astronomy_window
+E: 16, 0: Unable to import 'wx' (import-error)
+W: 19, 0: Wildcard import constants (wildcard-import)
+E: 20, 0: Unable to import 'gnuradio' (import-error)
+C: 40, 0: Invalid constant name "ntypes" (invalid-name)
+C: 41, 0: Invalid constant name "plotlog" (invalid-name)
+C: 42, 0: Invalid constant name "plotlinear" (invalid-name)
+C: 43, 0: Invalid constant name "plottemp" (invalid-name)
+C: 56, 0: Invalid class name "control_panel" (invalid-name)
+W:211,33: Unused argument 'event' (unused-argument)
+W:213,33: Unused argument 'event' (unused-argument)
+W:215,30: Unused argument 'event' (unused-argument)
+W:218,30: Unused argument 'event' (unused-argument)
+W:224,29: Unused argument 'key' (unused-argument)
+R: 56, 0: Too few public methods (0/2) (too-few-public-methods)
+C:230, 0: Invalid class name "fft_astronomy_window" (invalid-name)
+C:287, 8: Invalid attribute name "el" (invalid-name)
+C:264, 8: Invalid attribute name "loopPower" (invalid-name)
+C:286, 8: Invalid attribute name "az" (invalid-name)
+C:263, 8: Invalid attribute name "loopSamples" (invalid-name)
+C:265, 8: Invalid attribute name "plotSamples" (invalid-name)
+C:273, 8: Invalid attribute name "loopCount" (invalid-name)
+C:298, 8: Invalid attribute name "lastPrintTime" (invalid-name)
+C:275, 8: Invalid attribute name "aveSpectrum" (invalid-name)
+C:272, 8: Invalid attribute name "nPerPlotUpdate" (invalid-name)
+C:271, 8: Invalid attribute name "maxLoopCount" (invalid-name)
+C:277, 8: Invalid attribute name "aveRecent" (invalid-name)
+C:270, 8: Invalid attribute name "minLoopCount" (invalid-name)
+C:276, 8: Invalid attribute name "aveLinear" (invalid-name)
+C:285, 8: Invalid attribute name "sampleRate" (invalid-name)
+C:278, 8: Invalid attribute name "lastRecord" (invalid-name)
+R:230, 0: Too many instance attributes (43/7) (too-many-instance-attributes)
+R:234, 4: Too many arguments (18/5) (too-many-arguments)
+R:234, 4: Too many local variables (24/15) (too-many-locals)
+C:331,12: Invalid variable name "rs" (invalid-name)
+C:339,12: Invalid variable name "dt" (invalid-name)
+W:374, 0: Unused argument 'args' (unused-argument)
+C:452, 8: Invalid variable name "rs" (invalid-name)
+W:463, 0: Unused argument 'args' (unused-argument)
+W:482, 0: Unused argument 'args' (unused-argument)
+W:491, 0: Unused argument 'args' (unused-argument)
+R:497, 4: Too many local variables (23/15) (too-many-locals)
+E:504,43: Module 'numpy' has no 'float32' member (no-member)
+E:525,29: Module 'numpy' has no 'maximum' member (no-member)
+C:612,12: Invalid variable name "dt" (invalid-name)
+C:627,20: Invalid variable name "rs" (invalid-name)
+R:497, 4: Too many branches (32/12) (too-many-branches)
+R:497, 4: Too many statements (143/50) (too-many-statements)
+C:715, 4: Invalid method name "set_Longitude" (invalid-name)
+C:722, 4: Invalid method name "set_Latitude" (invalid-name)
+C:729, 4: Invalid method name "set_SampleRate" (invalid-name)
+C:729, 4: Invalid argument name "sampleRate" (invalid-name)
+C:736, 4: Invalid method name "set_Integrations" (invalid-name)
+C:743, 4: Invalid method name "set_nPerPlotUpdate" (invalid-name)
+C:743, 4: Invalid argument name "nPerPlotUpdate" (invalid-name)
+C:750, 4: Invalid method name "set_Azimuth" (invalid-name)
+C:757, 4: Invalid method name "set_Elevation" (invalid-name)
+W:771, 0: Unused argument 'args' (unused-argument)
+W:679,20: Attribute 'plotsamples' defined outside __init__ (attribute-defined-outside-init)
+W: 19, 0: Unused import ALPHA_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import REFERENCE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import FRAME_SIZE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import MAXIMUM_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import FRAME_RATE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import T_PER_DIV_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import TRIGGER_CHANNEL_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import Note from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import TRACE_REFRESH_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import XY_MARKER_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import NUM_BINS_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import TRIGGER_LEVEL_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import MINIMUM_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import LOG_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import BETA_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import TRIGGER_SHOW_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import X_CHANNEL_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import COLOR_MODE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import T_DIVS_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import AUTORANGE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import Y_AXIS_LABEL from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import Y_CHANNEL_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import DYNAMIC_RANGE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import TRIGGER_MODE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import MARKER_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import AC_COUPLE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import LOOP_BW_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import OMEGA_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import T_OFF_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import Y_OFF_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import T_FRAC_OFF_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import CHANNEL_OPTIONS_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import DECIMATION_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import X_PER_DIV_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import TRIGGER_SLOPE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import GAIN_OMEGA_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import NUM_LINES_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import XY_MODE_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import GAIN_MU_KEY from wildcard import (unused-wildcard-import)
+W: 19, 0: Unused import X_OFF_KEY from wildcard import (unused-wildcard-import)
+
+
+Report
+======
+467 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |2          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|method   |24     |24         |=          |100.00      |29.17    |
++---------+-------+-----------+-----------+------------+---------+
+|function |6      |6          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    common (fft_astronomy_window)
+    forms (fft_astronomy_window)
+    numpy (fft_astronomy_window)
+    plotter (fft_astronomy_window)
+    pubsub (fft_astronomy_window)
+    radioastronomy (fft_astronomy_window)
+    tsys (fft_astronomy_window)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |586    |69.51 |586      |=          |
++----------+-------+------+---------+-----------+
+|docstring |104    |12.34 |104      |=          |
++----------+-------+------+---------+-----------+
+|comment   |108    |12.81 |108      |=          |
++----------+-------+------+---------+-----------+
+|empty     |45     |5.34  |45       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |35     |37       |-2.00      |
++-----------+-------+---------+-----------+
+|refactor   |7      |7        |=          |
++-----------+-------+---------+-----------+
+|warning    |52     |52       |=          |
++-----------+-------+---------+-----------+
+|error      |4      |5        |-1.00      |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|unused-wildcard-import         |40          |
++-------------------------------+------------+
+|invalid-name                   |35          |
++-------------------------------+------------+
+|unused-argument                |10          |
++-------------------------------+------------+
+|too-many-locals                |2           |
++-------------------------------+------------+
+|no-member                      |2           |
++-------------------------------+------------+
+|import-error                   |2           |
++-------------------------------+------------+
+|wildcard-import                |1           |
++-------------------------------+------------+
+|too-many-statements            |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|too-many-branches              |1           |
++-------------------------------+------------+
+|too-many-arguments             |1           |
++-------------------------------+------------+
+|too-few-public-methods         |1           |
++-------------------------------+------------+
+|attribute-defined-outside-init |1           |
++-------------------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 7.56/10 (previous run: 7.41/10, +0.15)
+
